@@ -1,3 +1,63 @@
+//00
+var year = 2017
+var month = 4
+if year == 2017
+{
+    var anime = "如果是今年，"
+    if month == 1
+    {
+        anime += "\(month)月份我推「政宗君的復仇」"
+    }
+    else if month == 4
+    {
+        anime += "\(month)月份我推「進擊的巨人 第二季」"
+    }
+}
+else if year == 2016
+{
+    var anime = "如果是去年，"
+    if month == 1
+    {
+        anime += "\(month)月份我推「只有我不存在的城市」"
+    }
+    else if month == 4
+    {
+        anime += "\(month)月份我推「文豪野犬」"
+    }
+    else if month == 7
+    {
+        anime += "\(month)月份我推「齊木楠雄的災難」"
+    }
+    else if month == 10
+    {
+        anime += "\(month)月份我推「排球少年」"
+    }
+
+
+}
+else if year == 2015
+{
+    var anime = "如果是前年，"
+    if month == 1
+    {
+        anime += "\(month)月份我推「暗殺教室」"
+    }
+    else if month == 4
+    {
+        anime += "\(month)月份我推「亞爾斯蘭戰記」"
+    }
+    else if month == 7
+    {
+        anime += "\(month)月份我推「干物妹小埋」"
+    }
+    else if month == 10
+    {
+        anime += "\(month)月份我推「一拳超人」"
+    }
+    
+    
+}
+
 //01
 var sum1 = 0
 for i in 0...7
